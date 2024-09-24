@@ -40,20 +40,14 @@ Before running the application, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Mikemunene16/money_manager-1.git
+    git clone https://github.com/Mikemunene16/moneymanager.git
     ```
 
 2. Install the dependencies:
     ```bash
-    pip install sqlalchemy alembic
+    pip install sqlalchemy 
+    pip install alembic
     ```
-
-### Database Setup
-The database is managed using SQLite. To initialize the database, run the following command:
-```bash
-python -c "from app.models import create_db; create_db()"
-```
-This will create the necessary tables (`users`, `transactions`, `budgets`, and `categories`) in a SQLite database named `money_manager.db`.
 
 ## Usage
 
